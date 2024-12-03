@@ -51,7 +51,7 @@ const HeroSection = () => {
                 <input type="text" placeholder="Search Your desired location here" className="w-full  text-center rounded p-3 "/>
                 <i className="ri-map-pin-2-line absolute left-3 text-yellow-500 text-2xl top-2.5 "></i>
              </div>
-             <button className="bg-green-600 font-bold rounded-lg text-white p-6 text-xl  flex items-center justify-center"> Search</button>
+             <button className="bg-green-600 font-bold rounded-lg text-white p-2 text-xl  flex items-center justify-center"> Search</button>
 
             </div>
       
