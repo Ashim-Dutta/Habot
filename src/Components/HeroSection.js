@@ -40,7 +40,7 @@ const HeroSection = () => {
             </h1>
             
            
-            <div className="absolute inset-0 md:flex hidden justify-center gap-[2rem] w-[80%] m-auto my-[16rem] px-4 ">
+            <div className="absolute inset-0 md:flex hidden justify-center gap-[2rem] w-[80%] m-auto my-[16rem] px-4 h-2">
          
               <div className="relative w-[30%] ">
                 <input type="text" placeholder="Search Your required service here" className="w-full  text-center rounded p-3"/>
