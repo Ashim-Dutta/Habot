@@ -40,7 +40,7 @@ const HeroSection = () => {
             </h1>
             
            
-            <div className="absolute inset-0 md:flex hidden justify-center gap-[2rem] w-[80%] m-auto my-[16rem] px-4 h-2">
+            <div className="absolute inset-0 md:flex hidden justify-center gap-[2rem] w-[80%] m-auto my-[16rem] px-4 h-10">
          
               <div className="relative w-[30%] ">
                 <input type="text" placeholder="Search Your required service here" className="w-full  text-center rounded p-3"/>
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 <input type="text" placeholder="Search Your desired location here" className="w-full  text-center rounded p-3 "/>
                 <i className="ri-map-pin-2-line absolute left-3 text-yellow-500 text-2xl top-2.5 "></i>
              </div>
-             <button className="bg-green-600 font-bold rounded-lg text-white md:p-2 p-5 text-xl  flex items-center justify-center"> Search</button>
+             <button className="bg-green-600 font-bold rounded-lg text-white text-lg sm:text-xl h-full p-4  flex items-center justify-center transition duration-300 hover:bg-green-700">Search</button>
 
             </div>
       
